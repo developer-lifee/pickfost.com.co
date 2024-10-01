@@ -1,0 +1,7 @@
+User-agent: *
+
+Sitemap: https://pickfost.com.co/sitemap.xml
+
+Allow: /index/*
+Allow: /menu/*
+Allow: /pedidos/*

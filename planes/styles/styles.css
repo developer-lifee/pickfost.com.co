@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Up and Down Rough';
+  src: url(../assets/Up\ and\ Down\ Rough\ -\ Personal\ Use\ by.\ HIRO.std.ttf);
+}
+body{
+  background-image:url(./fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  font-family: 'Up and Down Rough', Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Up and Down Rough', Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columna1{ 
+  width: 425px;
+  height: 500px;
+  background: linear-gradient(to top,rgb(204, 200, 200),black);
+  border-right: 4px solid #bdb7b7f6;
+}
+.columna2{
+  width: 425px;
+  height: 500px;
+  background: linear-gradient(to top,rgb(204, 200, 200),black);
+  border-left: 4px solid #bdb7b7f6;
+  border-right: 4px solid #bdb7b7f6;
+}
+.columna3{
+  width: 425px;
+  height: 500px;  
+  background: linear-gradient(to top,rgb(204, 200, 200),black);
+  border-left: 4px solid #bdb7b7f6;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+div:last-child{
+  border-right: none;
+}
+
+.button {
+  background-color: #ffffff;
+  border:  2px solid #000000;
+  color: black;
+  padding: 10px 35px;
+  border-radius: 28px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 110px;
+  margin-left: 50%;
+  transform: translateX(-80%);
+  top: 20%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button:hover{
+  background-color: black;
+  color: white;
+}
+.button-container{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-container{
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.carousel-item{
+  flex: 0 0 100%;
+}
+
+.carousel-item img{
+  width: 100%;
+  height: auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-indicators span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.carousel-indicators span.active {
+  background-color: #333;
+}
+.carousel {
+  display: none;
+}
+
+/* Styles for mobile devices */
+/* @media ( max-width: 719px) {
+  .container {
+    display: none;
+  }   
+  .carousel{
+    display: block;
+  }
+  .carousel-indicators {
+    bottom: 5px;
+  }
+}
+ */
+ @media screen and (min-width:320px) and (max-width:374px){
+  h1{
+    font-size: 80px;
+    text-align: center;
+  }
+  .columna1{
+    width: 350px;
+    height: 500px;
+  }
+  .columna2{
+    position: absolute;
+    top: 710px;
+    width: 350px;
+    height: 500px;
+  }
+  .columna3{
+    position: absolute;
+    top: 1280px;
+    width: 350px;
+    height: 500px;
+   
+  }
+ }
+@media screen and (min-width:375px) and (max-width:520px){
+  h1{
+    font-size: 80px;
+    text-align: center;
+  }
+.columna1{
+  width: 350px;
+  height: 500px;
+}
+.columna2{
+  position: absolute;
+  top: 710px;
+  width: 350px;
+  height: 500px;
+}
+.columna3{
+  position: absolute;
+  top: 1280px;
+  width: 350px;
+  height: 500px;
+ 
+}
+ }
+@media screen and (min-width:521px) and (max-width:620px){
+  h1{
+    font-size: 80px;
+    text-align: center;
+  }
+  .columna1{
+    position: absolute;
+    left: 60px;
+    width: 450px;
+    height: 500px;
+  }
+  .columna2{
+    position: absolute;
+    top: 710px;
+    width: 350px;
+    height: 500px;
+  }
+  .columna3{
+    position: absolute;
+    top: 1280px;
+    width: 350px;
+    height: 500px;
+   
+  }
+   }
+@media screen and (min-width:621px) and (max-width:720px){
+  h1{
+    position:sticky;
+    text-align: center; 
+    font-size: 80px;
+  }
+  .columna1{
+    position: absolute;
+    left: 170px;
+    width: 450px;
+    height: 500px;
+  }
+  .columna2{
+    position: absolute;
+    left: 170px;
+    top: 710px;
+    width: 450px;
+    height: 500px;
+  }
+  .columna3{
+    position: absolute;
+    left: 170px;
+    top: 1280px;
+    width: 450px;
+    height: 500px;
+   
+  }
+   }
+  @media screen and (min-width:721px) and (max-width:860px){
+    .columna1{
+      position: absolute;
+      width: 400px;
+      height: 500px;
+    }
+    .columna2{
+      position: absolute;
+      left: 440px;
+      width: 400px;
+      height: 500px;
+    }
+    .columna3{
+      position: absolute;
+      left: 170px;
+      top: 710px;
+      width: 450px;
+      height: 500px;
+     
+    }
+   }
