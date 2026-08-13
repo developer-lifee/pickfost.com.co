@@ -14,11 +14,11 @@
         extend: {
           colors: {
             brand: {
-              red: '#dc2626',
-              amber: '#f59e0b',
-              yellow: '#fbbf24',
-              dark: '#18181b',
-              card: '#242427'
+              red: '#ec5252',
+              darkred: '#991b1b',
+              deepred: '#7f1d1d',
+              dark: '#120707',
+              card: '#1c0c0c'
             }
           }
         }
@@ -40,46 +40,46 @@
     }
   </style>
 </head>
-<body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-amber-500 selection:text-black">
+<body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-red-600 selection:text-white">
 
-  <!-- Header Banner Promocional -->
-  <div class="bg-gradient-to-r from-red-600 via-amber-500 to-red-600 text-black text-xs md:text-sm font-extrabold py-2 px-4 text-center tracking-wide flex items-center justify-center gap-2 shadow-md">
-    <i data-lucide="flame" class="w-4 h-4 text-black fill-current"></i>
+  <!-- Header Banner Promocional (Rojo Oscuro & Carmesí) -->
+  <div class="bg-gradient-to-r from-red-950 via-red-800 to-red-950 text-red-100 text-xs md:text-sm font-extrabold py-2 px-4 text-center tracking-wide flex items-center justify-center gap-2 border-b border-red-900/40">
+    <i data-lucide="flame" class="w-4 h-4 text-red-400 fill-current"></i>
     <span>¡BIENVENIDO A PICKFOST! Domicilios calientes y crujientes en Bogotá • Pide por WhatsApp</span>
   </div>
 
   <!-- Navbar Navigation -->
-  <header class="sticky top-0 z-50 bg-zinc-900/90 backdrop-blur-md border-b border-zinc-800">
+  <header class="sticky top-0 z-50 bg-zinc-950/90 backdrop-blur-md border-b border-red-950/60">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
-      <!-- Brand Logo Original -->
+      <!-- Brand Logo Original Pickfost Rojo -->
       <a href="#" class="flex items-center gap-3 group">
         <img src="./assets/img/pickfost.png" alt="Pickfost Logo" class="h-12 w-auto object-contain transition-transform group-hover:scale-105" />
         <div class="flex flex-col">
-          <span class="text-xl font-extrabold tracking-tight text-white group-hover:text-amber-400 transition-colors">PICKFOST</span>
-          <span class="text-[10px] font-bold text-amber-500 uppercase tracking-widest">Sabor & Domicilios</span>
+          <span class="text-xl font-extrabold tracking-tight text-[#ec5252] group-hover:text-red-400 transition-colors">PICKFOST</span>
+          <span class="text-[10px] font-bold text-red-500 uppercase tracking-widest">Gastronomía & Domicilios</span>
         </div>
       </a>
 
       <!-- Menu Items -->
       <nav class="hidden md:flex items-center gap-8 text-sm font-bold text-zinc-300">
-        <a href="#inicio" class="hover:text-amber-400 transition-colors flex items-center gap-2">
-          <i data-lucide="home" class="w-4 h-4 text-amber-500"></i> Inicio
+        <a href="#inicio" class="hover:text-red-400 transition-colors flex items-center gap-2">
+          <i data-lucide="home" class="w-4 h-4 text-red-500"></i> Inicio
         </a>
-        <a href="#servicios" class="hover:text-amber-400 transition-colors flex items-center gap-2">
-          <i data-lucide="sparkles" class="w-4 h-4 text-amber-500"></i> Servicios
+        <a href="#servicios" class="hover:text-red-400 transition-colors flex items-center gap-2">
+          <i data-lucide="sparkles" class="w-4 h-4 text-red-500"></i> Servicios
         </a>
-        <a href="#platillos" class="hover:text-amber-400 transition-colors flex items-center gap-2">
-          <i data-lucide="utensils-crossed" class="w-4 h-4 text-amber-500"></i> Menú Popular
+        <a href="#platillos" class="hover:text-red-400 transition-colors flex items-center gap-2">
+          <i data-lucide="utensils-crossed" class="w-4 h-4 text-red-500"></i> Menú Popular
         </a>
-        <a href="#app" class="hover:text-amber-400 transition-colors flex items-center gap-2">
-          <i data-lucide="smartphone" class="w-4 h-4 text-amber-500"></i> Descargar App
+        <a href="#app" class="hover:text-red-400 transition-colors flex items-center gap-2">
+          <i data-lucide="smartphone" class="w-4 h-4 text-red-500"></i> Descargar App
         </a>
       </nav>
 
       <!-- Action Button WhatsApp -->
       <div class="flex items-center gap-3">
-        <a href="https://wa.me/573118587975?text=Hola%20Pickfost,%20quiero%20hacer%20un%20pedido" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs md:text-sm px-4 py-2.5 rounded-xl shadow-lg flex items-center gap-2 transition-all hover:scale-105">
+        <a href="https://wa.me/573118587975?text=Hola%20Pickfost,%20quiero%20hacer%20un%20pedido" target="_blank" class="bg-red-700 hover:bg-red-600 text-white font-extrabold text-xs md:text-sm px-4 py-2.5 rounded-xl shadow-lg shadow-red-950/50 flex items-center gap-2 transition-all hover:scale-105 border border-red-600/40">
           <i data-lucide="phone-call" class="w-4 h-4"></i>
           <span>Pedir por WhatsApp</span>
         </a>
@@ -87,21 +87,21 @@
     </div>
   </header>
 
-  <!-- Hero Banner Principal -->
-  <section id="inicio" class="relative overflow-hidden py-12 md:py-20 bg-gradient-to-b from-zinc-900 to-zinc-950 border-b border-zinc-800">
+  <!-- Hero Banner Principal (Rojo Oscuro Auténtico) -->
+  <section id="inicio" class="relative overflow-hidden py-12 md:py-20 bg-gradient-to-b from-red-950/40 via-zinc-950 to-zinc-950 border-b border-red-950/40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-12 gap-8 items-center">
         
         <!-- Left Hero Copywriting -->
         <div class="lg:col-span-6 space-y-6">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-extrabold">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-red-950/60 border border-red-800/40 text-red-400 text-xs font-extrabold">
             <i data-lucide="award" class="w-4 h-4"></i>
             <span>Comida del pueblo y para el pueblo sabrosa</span>
           </div>
 
           <h1 class="text-4xl sm:text-6xl font-black text-white tracking-tight leading-tight">
             Los mejores platillos <br />
-            <span class="bg-gradient-to-r from-amber-400 via-amber-500 to-red-500 bg-clip-text text-transparent">al alcance de tu bolsillo</span>
+            <span class="bg-gradient-to-r from-red-400 via-red-500 to-red-600 bg-clip-text text-transparent">al alcance de tu bolsillo</span>
           </h1>
 
           <p class="text-zinc-300 text-base sm:text-lg leading-relaxed">
@@ -110,29 +110,29 @@
 
           <!-- Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 pt-2">
-            <a href="#platillos" class="bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold text-base px-7 py-4 rounded-xl shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2 transition-all hover:scale-105">
+            <a href="#platillos" class="bg-red-700 hover:bg-red-600 text-white font-extrabold text-base px-7 py-4 rounded-xl shadow-xl shadow-red-900/30 flex items-center justify-center gap-2 transition-all hover:scale-105 border border-red-600/40">
               <i data-lucide="utensils" class="w-5 h-5"></i>
               <span>Ver Menú & Platillos</span>
             </a>
             
-            <a href="https://wa.me/573118587975" target="_blank" class="bg-zinc-800 hover:bg-zinc-700 text-white font-bold text-base px-7 py-4 rounded-xl border border-zinc-700 flex items-center justify-center gap-2 transition-all">
-              <i data-lucide="truck" class="w-5 h-5 text-amber-400"></i>
+            <a href="https://wa.me/573118587975" target="_blank" class="bg-zinc-900 hover:bg-zinc-800 text-zinc-200 font-bold text-base px-7 py-4 rounded-xl border border-zinc-800 flex items-center justify-center gap-2 transition-all">
+              <i data-lucide="truck" class="w-5 h-5 text-red-500"></i>
               <span>Consultar Domicilio</span>
             </a>
           </div>
 
           <!-- Badges de Garantía -->
-          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-zinc-800 text-center">
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-zinc-900 text-center">
             <div>
-              <p class="text-2xl font-black text-amber-400">30 Min</p>
+              <p class="text-2xl font-black text-red-500">30 Min</p>
               <p class="text-xs text-zinc-400 font-semibold">Entrega Promedio</p>
             </div>
             <div>
-              <p class="text-2xl font-black text-amber-400">4.9 / 5</p>
+              <p class="text-2xl font-black text-red-500">4.9 / 5</p>
               <p class="text-xs text-zinc-400 font-semibold">Sabor Certificado</p>
             </div>
             <div>
-              <p class="text-2xl font-black text-amber-400">100%</p>
+              <p class="text-2xl font-black text-red-500">100%</p>
               <p class="text-xs text-zinc-400 font-semibold">Frescura Garantizada</p>
             </div>
           </div>
@@ -140,16 +140,16 @@
 
         <!-- Right Hero Image Showcase -->
         <div class="lg:col-span-6">
-          <div class="relative rounded-3xl overflow-hidden border-2 border-amber-500/30 shadow-2xl shadow-amber-500/10 group">
+          <div class="relative rounded-3xl overflow-hidden border-2 border-red-900/40 shadow-2xl shadow-red-950/50 group">
             <img src="./assets/img/banner_1.webp" alt="Pickfost Banner Especial" class="w-full h-[400px] sm:h-[480px] object-cover group-hover:scale-105 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent"></div>
             
-            <div class="absolute bottom-6 left-6 right-6 bg-zinc-900/90 backdrop-blur-md p-5 rounded-2xl border border-zinc-800 flex items-center justify-between">
+            <div class="absolute bottom-6 left-6 right-6 bg-zinc-900/95 backdrop-blur-md p-5 rounded-2xl border border-red-950 flex items-center justify-between">
               <div>
-                <span class="text-xs font-bold text-amber-400 uppercase tracking-widest">Especial de la Casa</span>
+                <span class="text-xs font-bold text-red-400 uppercase tracking-widest">Especial de la Casa</span>
                 <h3 class="text-lg font-bold text-white">Super Mazorcada & Combo Especial</h3>
               </div>
-              <span class="text-xl font-extrabold text-amber-400">$22.000 COP</span>
+              <span class="text-xl font-extrabold text-red-400">$22.000 COP</span>
             </div>
           </div>
         </div>
@@ -158,12 +158,12 @@
     </div>
   </section>
 
-  <!-- Nuestros Servicios Auténticos Pickfost -->
-  <section id="servicios" class="py-16 md:py-24 bg-zinc-900">
+  <!-- Servicios Auténticos Pickfost -->
+  <section id="servicios" class="py-16 md:py-24 bg-zinc-950">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-2xl mx-auto mb-16">
-        <span class="text-xs font-extrabold text-amber-400 uppercase tracking-widest bg-amber-500/10 px-4 py-1.5 rounded-full border border-amber-500/20">¿Por qué Pickfost?</span>
+        <span class="text-xs font-extrabold text-red-400 uppercase tracking-widest bg-red-950/60 px-4 py-1.5 rounded-full border border-red-800/40">¿Por qué Pickfost?</span>
         <h2 class="text-3xl md:text-5xl font-black text-white mt-4">Nuestros Servicios de Calidad</h2>
         <p class="text-zinc-400 text-base mt-3">Revolucionando la gastronomía en la capital con el auténtico sabor colombiano.</p>
       </div>
@@ -171,8 +171,8 @@
       <div class="grid md:grid-cols-3 gap-8">
         
         <!-- Servicio 1 -->
-        <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/40 transition-all hover:-translate-y-1 space-y-4">
-          <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-red-800/60 transition-all hover:-translate-y-1 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-red-950/60 border border-red-800/40 flex items-center justify-center text-red-400">
             <i data-lucide="bike" class="w-7 h-7"></i>
           </div>
           <h3 class="text-xl font-bold text-white">Envíos a Domicilio Calientes</h3>
@@ -182,8 +182,8 @@
         </div>
 
         <!-- Servicio 2 -->
-        <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/40 transition-all hover:-translate-y-1 space-y-4">
-          <div class="w-14 h-14 rounded-2xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400">
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-red-800/60 transition-all hover:-translate-y-1 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-red-950/60 border border-red-800/40 flex items-center justify-center text-red-400">
             <i data-lucide="flame" class="w-7 h-7"></i>
           </div>
           <h3 class="text-xl font-bold text-white">Sazón & Sabor Colombiano</h3>
@@ -193,8 +193,8 @@
         </div>
 
         <!-- Servicio 3 -->
-        <div class="bg-zinc-950 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/40 transition-all hover:-translate-y-1 space-y-4">
-          <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-red-800/60 transition-all hover:-translate-y-1 space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-red-950/60 border border-red-800/40 flex items-center justify-center text-red-400">
             <i data-lucide="calendar" class="w-7 h-7"></i>
           </div>
           <h3 class="text-xl font-bold text-white">Planifique su Alimentación</h3>
@@ -207,12 +207,12 @@
     </div>
   </section>
 
-  <!-- Platillos Más Populares (Imágenes Auténticas Pickfost) -->
-  <section id="platillos" class="py-16 md:py-24 bg-zinc-950 border-t border-zinc-800">
+  <!-- Platillos Más Populares (Fotos Auténticas) -->
+  <section id="platillos" class="py-16 md:py-24 bg-zinc-950 border-t border-zinc-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="text-center max-w-2xl mx-auto mb-16">
-        <span class="text-xs font-extrabold text-red-400 uppercase tracking-widest bg-red-500/10 px-4 py-1.5 rounded-full border border-red-500/20">Menú Recomendado</span>
+        <span class="text-xs font-extrabold text-red-400 uppercase tracking-widest bg-red-950/60 px-4 py-1.5 rounded-full border border-red-800/40">Menú Recomendado</span>
         <h2 class="text-3xl md:text-5xl font-black text-white mt-4">Nuestros Platillos Más Populares</h2>
         <p class="text-zinc-400 text-base mt-3">Preparados al instante con ingredientes seleccionados.</p>
       </div>
@@ -220,10 +220,10 @@
       <div class="grid md:grid-cols-3 gap-8">
         
         <!-- Card 1: Salchipapas -->
-        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-amber-500/40 transition-all group">
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-red-800/60 transition-all group">
           <div class="relative h-64 overflow-hidden">
             <img src="./assets/img/salchipapas.jfif" alt="Salchipapas Pickfost" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-            <span class="absolute top-4 right-4 bg-amber-500 text-zinc-950 font-black text-xs px-3 py-1.5 rounded-full shadow-lg">
+            <span class="absolute top-4 right-4 bg-red-700 text-white font-black text-xs px-3 py-1.5 rounded-full shadow-lg border border-red-600/40">
               $6.000 - $26.000
             </span>
           </div>
@@ -232,7 +232,7 @@
             <p class="text-zinc-400 text-sm">Papas crujientes, salchicha premium, queso fundido, ripio de papa y salsas de la casa.</p>
             
             <div class="pt-2 flex items-center justify-between">
-              <a href="https://wa.me/573118587975?text=Hola,%20quiero%20pedir%20Salchipapas" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold text-sm py-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+              <a href="https://wa.me/573118587975?text=Hola,%20quiero%20pedir%20Salchipapas" target="_blank" class="w-full bg-red-700 hover:bg-red-600 text-white font-extrabold text-sm py-3 rounded-xl flex items-center justify-center gap-2 transition-all border border-red-600/40">
                 <i data-lucide="shopping-bag" class="w-4 h-4"></i>
                 <span>Agregar al Pedido</span>
               </a>
@@ -241,10 +241,10 @@
         </div>
 
         <!-- Card 2: Mazorcadas -->
-        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-amber-500/40 transition-all group">
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-red-800/60 transition-all group">
           <div class="relative h-64 overflow-hidden">
             <img src="./assets/img/mazorcada.jfif" alt="Mazorcada Pickfost" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-            <span class="absolute top-4 right-4 bg-amber-500 text-zinc-950 font-black text-xs px-3 py-1.5 rounded-full shadow-lg">
+            <span class="absolute top-4 right-4 bg-red-700 text-white font-black text-xs px-3 py-1.5 rounded-full shadow-lg border border-red-600/40">
               $12.000 - $25.000
             </span>
           </div>
@@ -253,7 +253,7 @@
             <p class="text-zinc-400 text-sm">Maíz dulce tierno desgranado, carne desmechada, pollo, tocino, queso mozzarella y salsas.</p>
             
             <div class="pt-2 flex items-center justify-between">
-              <a href="https://wa.me/573118587975?text=Hola,%20quiero%20pedir%20Mazorcada" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold text-sm py-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+              <a href="https://wa.me/573118587975?text=Hola,%20quiero%20pedir%20Mazorcada" target="_blank" class="w-full bg-red-700 hover:bg-red-600 text-white font-extrabold text-sm py-3 rounded-xl flex items-center justify-center gap-2 transition-all border border-red-600/40">
                 <i data-lucide="shopping-bag" class="w-4 h-4"></i>
                 <span>Agregar al Pedido</span>
               </a>
@@ -262,10 +262,10 @@
         </div>
 
         <!-- Card 3: Hamburguesas -->
-        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-amber-500/40 transition-all group">
+        <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-zinc-800 hover:border-red-800/60 transition-all group">
           <div class="relative h-64 overflow-hidden">
             <img src="./assets/img/hamburgesas.jfif" alt="Hamburguesas Pickfost" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-            <span class="absolute top-4 right-4 bg-amber-500 text-zinc-950 font-black text-xs px-3 py-1.5 rounded-full shadow-lg">
+            <span class="absolute top-4 right-4 bg-red-700 text-white font-black text-xs px-3 py-1.5 rounded-full shadow-lg border border-red-600/40">
               $8.000 - $25.000
             </span>
           </div>
@@ -274,7 +274,7 @@
             <p class="text-zinc-400 text-sm">Carne 100% artesanal, queso cheddar derretido, tocineta crocante y vegetales frescos.</p>
             
             <div class="pt-2 flex items-center justify-between">
-              <a href="https://wa.me/573118587975?text=Hola,%20quiero%20pedir%20Hamburguesa" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold text-sm py-3 rounded-xl flex items-center justify-center gap-2 transition-all">
+              <a href="https://wa.me/573118587975?text=Hola,%20quiero%20pedir%20Hamburguesa" target="_blank" class="w-full bg-red-700 hover:bg-red-600 text-white font-extrabold text-sm py-3 rounded-xl flex items-center justify-center gap-2 transition-all border border-red-600/40">
                 <i data-lucide="shopping-bag" class="w-4 h-4"></i>
                 <span>Agregar al Pedido</span>
               </a>
@@ -286,8 +286,8 @@
     </div>
   </section>
 
-  <!-- Descarga App Móvil & Registro -->
-  <section id="app" class="py-16 md:py-24 bg-gradient-to-r from-amber-600 via-amber-500 to-red-600 text-zinc-950">
+  <!-- Descarga App Móvil -->
+  <section id="app" class="py-16 md:py-24 bg-gradient-to-r from-red-950 via-red-900 to-red-950 text-white border-t border-b border-red-900/50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-12 gap-8 items-center">
         
@@ -296,17 +296,17 @@
         </div>
 
         <div class="md:col-span-7 space-y-6 text-center md:text-left">
-          <span class="bg-zinc-950 text-amber-400 font-extrabold text-xs uppercase px-4 py-1.5 rounded-full">Aplicación Móvil</span>
-          <h2 class="text-3xl sm:text-5xl font-black text-zinc-950 tracking-tight leading-tight">
+          <span class="bg-red-800 text-red-200 font-extrabold text-xs uppercase px-4 py-1.5 rounded-full border border-red-700">Aplicación Móvil</span>
+          <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
             Descarga nuestra App & Pide desde tu Celular
           </h2>
-          <p class="text-zinc-900 font-semibold text-base sm:text-lg leading-relaxed">
+          <p class="text-red-100/90 font-medium text-base sm:text-lg leading-relaxed">
             Accede a promociones exclusivas, acumula puntos de fidelidad y realiza tus pedidos en segundos con seguimiento en tiempo real.
           </p>
 
           <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-2">
-            <a href="https://wa.me/573118587975" target="_blank" class="bg-zinc-950 hover:bg-zinc-900 text-white font-extrabold text-base px-8 py-4 rounded-xl shadow-2xl flex items-center justify-center gap-3 transition-all hover:scale-105">
-              <i data-lucide="download" class="w-5 h-5 text-amber-400"></i>
+            <a href="https://wa.me/573118587975" target="_blank" class="bg-white hover:bg-zinc-100 text-red-950 font-extrabold text-base px-8 py-4 rounded-xl shadow-2xl flex items-center justify-center gap-3 transition-all hover:scale-105">
+              <i data-lucide="download" class="w-5 h-5 text-red-700"></i>
               <span>Descargar App Pickfost</span>
             </a>
           </div>
@@ -317,13 +317,13 @@
   </section>
 
   <!-- Footer Auténtico -->
-  <footer class="bg-zinc-950 text-zinc-400 py-12 border-t border-zinc-800">
+  <footer class="bg-zinc-950 text-zinc-400 py-12 border-t border-zinc-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
         
         <div>
           <h4 class="text-white font-extrabold text-lg mb-2 flex items-center justify-center md:justify-start gap-2">
-            <i data-lucide="copyright" class="w-4 h-4 text-amber-400"></i> Esteban Avila
+            <i data-lucide="copyright" class="w-4 h-4 text-red-500"></i> Esteban Avila
           </h4>
           <p class="text-xs text-zinc-500">PICKFOST Gastronomía & Domicilios. Todos los derechos reservados.</p>
         </div>
@@ -338,10 +338,10 @@
         <div>
           <h4 class="text-white font-extrabold text-lg mb-2">Síguenos en Redes</h4>
           <div class="flex items-center justify-center md:justify-start gap-4 pt-1">
-            <a href="https://www.facebook.com/Pickfost-100656472682395" target="_blank" class="text-zinc-400 hover:text-amber-400 transition-colors flex items-center gap-1.5 text-xs font-bold">
+            <a href="https://www.facebook.com/Pickfost-100656472682395" target="_blank" class="text-zinc-400 hover:text-red-400 transition-colors flex items-center gap-1.5 text-xs font-bold">
               <i data-lucide="facebook" class="w-4 h-4"></i> Facebook
             </a>
-            <a href="https://www.instagram.com/pickfost/" target="_blank" class="text-zinc-400 hover:text-amber-400 transition-colors flex items-center gap-1.5 text-xs font-bold">
+            <a href="https://www.instagram.com/pickfost/" target="_blank" class="text-zinc-400 hover:text-red-400 transition-colors flex items-center gap-1.5 text-xs font-bold">
               <i data-lucide="instagram" class="w-4 h-4"></i> Instagram
             </a>
           </div>
